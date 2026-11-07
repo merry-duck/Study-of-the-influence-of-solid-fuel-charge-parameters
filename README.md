@@ -78,11 +78,15 @@ DIAMETER_MM = 380.0
 пересчёта:
 
 $$
-x=\frac{D}{2}\widehat x,
-\qquad
-\Pi=D\bar\Pi,
-\qquad
-F_{\text{кан}}=\frac{D^2}{4}\bar F.
+\begin{aligned}
+e_0 &= \frac{D}{2}\bar e_0,
+& R &= \frac{D}{2}\widehat R,
+& r &= \frac{D}{2}\widehat r, \\
+e_1 &= \frac{D}{2}\bar e_1,
+& e_{\max} &= \frac{D}{2}\bar e_{\max}, \\
+\Pi &= D\bar\Pi,
+& F_{\text{кан}} &= \frac{D^2}{4}\bar F.
+\end{aligned}
 $$
 
 Модуль рассчитывает $e_0$, $R$, $r$, $e_1$ и $e_{\max}$ в
